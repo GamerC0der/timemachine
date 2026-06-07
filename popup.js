@@ -26,3 +26,7 @@ document.getElementById("get-started").addEventListener("click", () => {
 document.querySelector(".help-icon").addEventListener("click", () => {
     alert("Navigate to a site, tap the icon, then enjoy!");
 }); // Navigate to a site, and enjoy! ? icon click event here.
+
+document.getElementById("get-going").addEventListener("click", () => {
+    document.getElementById("step-2").classList.add("hidden");
+}); // Hide Step 2 after Get Going press.
