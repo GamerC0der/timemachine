@@ -15,3 +15,14 @@ function type() {
 }
 
 type(); // runs function type.
+
+// Get Started Menu:
+
+document.getElementById("get-started").addEventListener("click", () => {
+    document.getElementById("step-1").classList.add("hidden");
+    document.getElementById("step-2").classList.remove("hidden");
+});
+
+document.querySelector(".help-icon").addEventListener("click", () => {
+    alert("Navigate to a site, tap the icon, then enjoy!");
+}); // Navigate to a site, and enjoy! ? icon click event here.

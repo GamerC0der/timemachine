@@ -9,11 +9,26 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1 id="typewriter"></h1>
-        <div class="welcome-row">
-            <p>Welcome to the TimeMachine</p>
-            <button id=get-started">Get Started</button>
+        <div id="step-1">
+            <h1 id="typewriter"></h1>
+            <div class="welcome-row">
+                <p>Welcome to the TimeMachine</p>
+                <button id="get-started">Get Started</button>
+            </div>
         </div>
+        <div id="step-2" class="hidden">
+            <div class="how-header">
+                <h2>How this Works</h2>
+                <span class="help-icon" title="More info">?</span>
+            </div>
+            
+            <ul>
+                <li>Begin by navigating to a website.</li>
+                <li>Tap the extenstion icon.</li>
+                <li>The extension will navigate to the Wayback Machine or other archival sites.</li>
+            </ul>
+        </div>
+    
         <script src="popup.js"></script>
     </body>
 </html>
