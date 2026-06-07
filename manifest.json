@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "TimeMachine",
+    "version": "1.0",
+    "description": "Navigate the Wayback Machine, all the way back!",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; object-src 'self'"
+    }
+}
